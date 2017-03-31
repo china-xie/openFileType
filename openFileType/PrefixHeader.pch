@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  openFileType
+//
+//  Created by xjw on 2017/3/31.
+//  Copyright © 2017年 cn.com.rockmobile. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+#endif /* PrefixHeader_pch */
